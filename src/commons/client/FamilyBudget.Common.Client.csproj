@@ -18,10 +18,16 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="BlazorDevKit" Version="0.61.6" />
+        <PackageReference Include="BlazorDevKit.FluentValidation" Version="0.61.6" />
+        <PackageReference Include="BsBlazor.Plus" Version="0.61.6" />
+        <PackageReference Include="BlazorComponentUtilities" Version="1.8.0" />
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="10.0.0-preview.5.25277.114"/>
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Components\Containers\" />
+      <Folder Include="Components\Forms\" />
       <Folder Include="wwwroot\" />
     </ItemGroup>
 
