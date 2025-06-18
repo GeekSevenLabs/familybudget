@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Family Budget</title>
+        
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <base href="/"/>
+        
+        @* START Bootstrap *@
+        <link rel="stylesheet" href="@Assets["/lib/bootstrap/bootstrap.min.css"]"/>
+        <link rel="stylesheet" href="@Assets["/lib/bootstrap-icons/bootstrap-icons.css"]"/>
+        @* END Bootstrap *@
+        
+        @* START App *@
+        <link rel="stylesheet" href="@Assets["app.css"]"/>
+        <link rel="stylesheet" href="@Assets["FamilyBudget.Presentation.Web.Server.styles.css"]"/>
+        @* END App *@
+        
+        <ImportMap/>
+        <HeadOutlet @rendermode="InteractiveAuto"/>
+    </head>
+
+    <body>
+        <Routes @rendermode="InteractiveAuto" />
+        <ReconnectModal />
+        
+        @* START Blazor *@
+        <script src="@Assets["_framework/blazor.web.js"]"></script>
+        @* END Blazor *@
+        
+        @* START LIBs *@
+        <script src="@Assets["/lib/bootstrap/bootstrap.bundle.min.js"]"></script>
+        <script src="@Assets["/lib/imask/imask.min.js"]"></script>
+        @* END LIBs *@
+    </body>
+</html>

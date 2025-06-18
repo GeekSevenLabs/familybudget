@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\commons\application\FamilyBudget.Common.Application.csproj" />
+        <ProjectReference Include="..\application.shared\FamilyBudget.Identity.Application.Shared.csproj" />
+        <ProjectReference Include="..\domain\FamilyBudget.Identity.Domain.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Users\Login\" />
+    </ItemGroup>
+
+</Project>

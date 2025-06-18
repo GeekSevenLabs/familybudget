@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/1 - Common/">
+    <Project Path="src\commons\application.shared\FamilyBudget.Common.Application.Shared.csproj" Type="Classic C#" />
+    <Project Path="src\commons\application\FamilyBudget.Common.Application.csproj" Type="Classic C#" />
+    <Project Path="src\commons\client\FamilyBudget.Common.Client.csproj" Type="Classic C#" />
+    <Project Path="src\commons\core\FamilyBudget.Common.csproj" Type="Classic C#" />
+    <Project Path="src\commons\domain\FamilyBudget.Common.Domain.csproj" Type="Classic C#" />
+    <Project Path="src\commons\server\FamilyBudget.Common.Server.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/2 - Services/" />
+  <Folder Name="/2 - Services/2.1 - Identity/">
+    <Project Path="src\identity\application.shared\FamilyBudget.Identity.Application.Shared.csproj" Type="Classic C#" />
+    <Project Path="src\identity\application\FamilyBudget.Identity.Application.csproj" Type="Classic C#" />
+    <Project Path="src\identity\domain.shared\FamilyBudget.Identity.Domain.Shared.csproj" Type="Classic C#" />
+    <Project Path="src\identity\domain\FamilyBudget.Identity.Domain.csproj" Type="Classic C#" />
+    <Project Path="src\identity\infrastructure\FamilyBudget.Identity.Infrastructure.csproj" Type="Classic C#" />
+    <Project Path="tests\identity\FamilyBudget.Identity.Tests.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/3 - Presentation/" />
+  <Folder Name="/3 - Presentation/3.1 - Web/">
+    <Project Path="src\presentation\web\client\FamilyBudget.Presentation.Web.Client.csproj" Type="Classic C#" />
+    <Project Path="src\presentation\web\server\FamilyBudget.Presentation.Web.Server.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>

@@ -1,0 +1,35 @@
+@import 'tailwindcss' prefix(tw);
+@theme {
+    --breakpoint-bs-lg: 992px;
+    --color-primary: #004694;
+    --color-primary-rgb: 0, 70, 148;
+
+    --color-primary-light: #4d71c5;
+    --color-primary-light-rgb: 77, 113, 197;
+
+    --color-primary-dark: #002065;
+    --color-secondary: #ffcc00;
+    --color-secondary-light: #ffff50;
+    --color-secondary-dark: #c79c00;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+:root {
+    --bs-primary: var(--tw-color-primary);
+    --bs-primary-rgb: var(--tw-color-primary-rgb);
+    --bs-link-color: var(--tw-color-primary);
+    --bs-link-hover-color: var(--tw-color-primary-dark);
+}
+
+/** Estilos BS */
+.btn{
+    @apply tw:font-medium;
+}
+/** Fim estilos BS */

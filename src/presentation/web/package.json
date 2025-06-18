@@ -1,0 +1,22 @@
+{
+  "name": "family-budget",
+  "version": "1.0.0",
+  "scripts": {
+    "tailwind": "cross-env NODE_ENV=development npx @tailwindcss/cli -i ./server/Styles/app-in.css -o ./server/wwwroot/app.css --watch",
+    "copy:bootstrap": "mkdir -p ./server/wwwroot/lib/bootstrap && cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./server/wwwroot/lib/bootstrap/ && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js ./server/wwwroot/lib/bootstrap/",
+    "copy:bootstrap-icons": "mkdir -p ./server/wwwroot/lib/bootstrap-icons && cp ./node_modules/bootstrap-icons/font/bootstrap-icons.css ./server/wwwroot/lib/bootstrap-icons/ && cp -r ./node_modules/bootstrap-icons/font/fonts ./server/wwwroot/lib/bootstrap-icons/",
+    "copy:imask": "mkdir -p ./server/wwwroot/lib/imask && cp ./node_modules/imask/dist/imask.min.js ./server/wwwroot/lib/imask/",
+    "copy:all": "npm run copy:bootstrap && npm run copy:bootstrap-icons && npm run copy:imask"
+  },
+  "author": "menso.dev.br",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "bootstrap": "^5.3.7",
+    "bootstrap-icons": "^1.13.1",
+    "cross-env": "^7.0.3",
+    "imask": "^7.6.1",
+    "tailwindcss": "^4.1.10"
+  }
+}
