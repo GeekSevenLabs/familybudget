@@ -197,6 +197,12 @@
   .tw\:ml-4 {
     margin-left: calc(var(--tw-spacing) * 4);
   }
+  .tw\:px-4 {
+    padding-inline: calc(var(--tw-spacing) * 4);
+  }
+  .tw\:py-10 {
+    padding-block: calc(var(--tw-spacing) * 10);
+  }
   .tw\:py-20 {
     padding-block: calc(var(--tw-spacing) * 20);
   }
